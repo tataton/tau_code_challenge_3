@@ -1,0 +1,32 @@
+input, textarea {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 2px solid black;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+
+.author-column {
+  width: 10%;
+}
+
+.question-column {
+  width: 55%;
+}
+
+.punchline-column  {
+  width: 35%;
+}

@@ -5,12 +5,13 @@
     <title>JEN Stack Code Challenge</title>
     <script src="vendors/jquery-3.0.0.min.js" charset="utf-8"></script>
     <script src="scripts/cc3.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
     <h1>JEN Stack Code Challenge</h1>
     <input type='text' id='whoseJokeIn' placeholder='whose joke' />
-    <input type='text' id='questionIn' placeholder='question' />
-    <input type='text' id='punchlineIn' placeholder='punchline' />
+    <textarea id='questionIn' rows='4' cols='50' placeholder='question'></textarea>
+    <textarea id='punchlineIn' rows='2' cols='50' placeholder='punchline'></textarea>
     <button id='addJokeButton'>Add Joke</button>
     <h2>Jokes:</h2>
     <div id='outputDiv'></div>
