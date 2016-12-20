@@ -1,5 +1,7 @@
 ##Node Express jQuery Code Challenge
 
+You have 90 minutes to complete this challenge.
+
 ### Objectives
 - Initialize and spin up a server side node/express application.
 - Send requests to the server from both the browser and using ajax in the client side script.
